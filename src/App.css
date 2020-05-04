@@ -1,4 +1,73 @@
-.App {
+.app {
+  min-height: 800px;
+  background: rgb(137, 172, 184);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.tweet{
+  height: 180px;
+  width: 222px;
+  background: rgb(96, 136, 151);
+  border-radius: 30px;
+  border-style: groove;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* font-size: 13pt; */
+}
+
+.button {
+  /* background-color: #008CBA;  */
+  /* border: darkslategray; */
+  color: white;
+  padding: 15px 32px;
+  text-decoration: aliceblue;
+  text-align: center;
+  /* text-decoration: blue; */
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s; 
+  cursor: pointer;
+  box-shadow: 0 6px rgb(72, 119, 119);
+  outline: crimson;
+  
+}
+.button:hover {
+  /* background-color: #af4c4c; */
+  /* #4c6faf */
+  /* color: white; */
+  /* box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+.button:active {
+  /* background-color: #e58f8f;  */
+  box-shadow: 0 3px rgb(93, 101, 116);
+  transform: translateY(4px); 
+}
+
+.col-sm-4 {
+  display: flex;
+  /* flex: auto; */
+  max-width: max-content;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 30px;
+  justify-content: space-around;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-around;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +104,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
