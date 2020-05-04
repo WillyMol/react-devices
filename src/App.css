@@ -1,16 +1,29 @@
 .app {
+<<<<<<< HEAD
   min-height: 800px;
   background: rgb(137, 172, 184);
   display: flex;
   justify-content: space-around;
+=======
+  min-height: 1000px;
+  background: rgb(137, 172, 184);
+  display: grid; 
+  justify-content: flex-start;
+>>>>>>> 9ce415dd064bf6865d5d6338e7d6013a2e49fae0
   align-items: center;
   
 }
 
 .tweet{
+<<<<<<< HEAD
   height: 180px;
   width: 222px;
   background: rgb(96, 136, 151);
+=======
+  height: 160px;
+  width: 200px;
+  background: lightgray;
+>>>>>>> 9ce415dd064bf6865d5d6338e7d6013a2e49fae0
   border-radius: 30px;
   border-style: groove;
   display: flex;
@@ -46,6 +59,7 @@
 .button:active {
   /* background-color: #e58f8f;  */
   box-shadow: 0 3px rgb(93, 101, 116);
+<<<<<<< HEAD
   transform: translateY(4px); 
 }
 
@@ -66,6 +80,43 @@
   justify-content: space-around;
 }
 
+=======
+  transform: translateY(4px);
+  
+}
+ul {
+  list-style-position: inside;
+}
+ .col-sm-4 {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex: auto;
+  max-width: 250px;
+  
+  border-radius: 30px;
+  border-style: groove;
+  justify-content: space-around;
+
+  margin: 5px; 
+  padding: 5px; 
+  flex-direction: column;
+  
+} 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  
+  justify-content: center;
+  padding-top: inherit;
+}
+
+.w3-border-bottom {
+  border-bottom: 5px solid #ccc!important;
+}
+>>>>>>> 9ce415dd064bf6865d5d6338e7d6013a2e49fae0
 
 /* .App {
   text-align: center;
