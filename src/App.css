@@ -1,16 +1,16 @@
 .app {
-  min-height: 600px;
+  min-height: 1000px;
   background: rgb(137, 172, 184);
-  display: flex;
-  justify-content: space-around;
+  display: grid; 
+  justify-content: flex-start;
   align-items: center;
   
 }
 
 .tweet{
-  height: 180px;
-  width: 222px;
-  background: rgb(96, 136, 151);
+  height: 160px;
+  width: 200px;
+  background: lightgray;
   border-radius: 30px;
   border-style: groove;
   display: flex;
@@ -49,7 +49,38 @@
   transform: translateY(4px);
   
 }
+ul {
+  list-style-position: inside;
+}
+ .col-sm-4 {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex: auto;
+  max-width: 250px;
+  
+  border-radius: 30px;
+  border-style: groove;
+  justify-content: space-around;
 
+  margin: 5px; 
+  padding: 5px; 
+  flex-direction: column;
+  
+} 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  
+  justify-content: center;
+  padding-top: inherit;
+}
+
+.w3-border-bottom {
+  border-bottom: 5px solid #ccc!important;
+}
 
 /* .App {
   text-align: center;

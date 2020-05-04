@@ -21,20 +21,28 @@ const Device = (props) => {   //function Light(props) {
     //styles.button
     
     return (
-       <div className="tweet">
-        <ul>
-          <li>Device: {thingName}</li>
-          <li>Location: {thingPlace} </li>
-          <li>Status: {lightStatus ? <> On </> : <> Off </>} </li>
-        </ul>
-        <div>
-        <button className="button" style={{ backgroundColor: lightStatus ? "#3e8e41" : "#4c6faf"}} 
+     
+      <>
+         <div className="w3-container" style = {{paddingTop: "15px", paddingBottom: "15px"}}>
+            <ul>
+              <li>Device: {thingName}</li>
+              <li>Location: {thingPlace} </li>
+              <li>Status: {lightStatus ? <> On </> : <> Off </>} </li>
+            </ul>
+          </div>
+        <div style = {{ maxWidth : "max-content", paddingBottom: "8px" }}>
+        <button 
+            className="button" style={{ backgroundColor: lightStatus ? "#3e8e41" : "#4c6faf"}} 
             onClick={() => setlightStatus(!lightStatus)}>
-          Toggle
+            {lightStatus ? 'ON' : 'OFF'}
         </button>        
         </div>
-       </div>
+      
+      </>
     );
 }
 
 export default Device
+
+
+
