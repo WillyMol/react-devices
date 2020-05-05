@@ -1,46 +1,29 @@
 .app {
-<<<<<<< HEAD
-  min-height: 800px;
-  background: rgb(137, 172, 184);
-  display: flex;
-  justify-content: space-around;
-=======
   min-height: 1000px;
   background: rgb(137, 172, 184);
   display: grid; 
   justify-content: flex-start;
->>>>>>> 9ce415dd064bf6865d5d6338e7d6013a2e49fae0
   align-items: center;
   
 }
 
 .tweet{
-<<<<<<< HEAD
-  height: 180px;
-  width: 222px;
-  background: rgb(96, 136, 151);
-=======
   height: 160px;
   width: 200px;
   background: lightgray;
->>>>>>> 9ce415dd064bf6865d5d6338e7d6013a2e49fae0
   border-radius: 30px;
   border-style: groove;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  /* font-size: 13pt; */
+  align-items: center;  
 }
 
-.button {
-  /* background-color: #008CBA;  */
-  /* border: darkslategray; */
+.button {  
   color: white;
   padding: 15px 32px;
   text-decoration: aliceblue;
-  text-align: center;
-  /* text-decoration: blue; */
+  text-align: center;  
   display: inline-block;
   font-size: 16px;
   border-radius: 12px;
@@ -48,6 +31,8 @@
   cursor: pointer;
   box-shadow: 0 6px rgb(72, 119, 119);
   outline: crimson;
+  width: 100px;
+  max-width: 100px;
   
 }
 .button:hover {
@@ -59,28 +44,6 @@
 .button:active {
   /* background-color: #e58f8f;  */
   box-shadow: 0 3px rgb(93, 101, 116);
-<<<<<<< HEAD
-  transform: translateY(4px); 
-}
-
-.col-sm-4 {
-  display: flex;
-  /* flex: auto; */
-  max-width: max-content;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  border-radius: 30px;
-  justify-content: space-around;
-}
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  justify-content: space-around;
-}
-
-=======
   transform: translateY(4px);
   
 }
@@ -88,12 +51,13 @@ ul {
   list-style-position: inside;
 }
  .col-sm-4 {
-  height: 200px;
-  width: 250px;
+  height: 160px;
+  width: 170px;
+  max-width: 170px;
   display: flex;
   flex: auto;
-  max-width: 250px;
   
+  background-color: #d4ac6e;
   border-radius: 30px;
   border-style: groove;
   justify-content: space-around;
@@ -115,8 +79,8 @@ ul {
 
 .w3-border-bottom {
   border-bottom: 5px solid #ccc!important;
+  background-color: #bbab9b
 }
->>>>>>> 9ce415dd064bf6865d5d6338e7d6013a2e49fae0
 
 /* .App {
   text-align: center;

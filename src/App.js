@@ -8,18 +8,6 @@ import './App.css';
 
 function App() {
   const mydatabase = [
-<<<<<<< HEAD
-    {Ip:"192.168.1.15", Name:"ESP44GG66", Place:"Garage", Description:"This is a RF chip", State:false},
-    {Ip:"192.168.1.19", Name:"ESP1J3K56", Place:"Floor Lamp", Description:"This is a great device", State:true},
-    {Ip:"192.168.1.21", Name:"ESP8D7S5E", Place:"Table Lamp", Description:"The best thing ever", State:false},
-    {Ip:"192.168.1.32", Name:"ESP3G5K0S", Place:"Patio", Description:"The last thing ever", State:true},         
-    ];
-  return (
-    <div className="row">
-      {/* <h1>My Devices</h1>               */}
-      { mydatabase.map((element, index) => { return <div className = "col-sm-4" key={index}><Device database = {element} /></div> }) } 
-    </div> 
-=======
     {Ip:"192.168.1.15", Name:"ESP44GG66", Place:"Garage Door", Description:"This is a RF chip", State:false},
     {Ip:"192.168.1.19", Name:"ESP1J3K56", Place:"Floor Lamp", Description:"This is a great device", State:true},
     {Ip:"192.168.1.21", Name:"ESP8D7S5E", Place:"Table Lamp", Description:"The best thing ever", State:false},
@@ -41,7 +29,6 @@ function App() {
       } 
         { /*</div>*/ }
     </>
->>>>>>> 9ce415dd064bf6865d5d6338e7d6013a2e49fae0
 
   );
 }
