@@ -10,3 +10,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+// este es un cambio que se hizo
